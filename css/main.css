@@ -125,9 +125,24 @@ ul li {list-style-type: none;}
 
 /*end CSS Reset*/
 
+/*==========Global Styles==========*/
+html, body{
+  height: 100%;
+}
+
+body{
+  background: url(../img/bg-doodle.jpg) center center no-repeat;
+  background-size: cover;
+  width: 100%;
+}
+/*==========End Global Styles==========*/
 
 
+/*==========Header Styles==========*/
+header{
 
+}
+/*==========End Header Styles==========*/
 
 
 
