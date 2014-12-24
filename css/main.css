@@ -145,6 +145,18 @@ section{
 /*==========Header Styles==========*/
 header{
   height: 100%;
+  width: 100%;
+}
+
+.logobox{
+  height: 450px;
+  width: auto;
+  margin: auto;
+}
+
+.logobox img{
+  height: 100%;
+  margin: 0 auto;
 }
 /*==========End Header Styles==========*/
 
