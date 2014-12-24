@@ -131,16 +131,20 @@ html, body{
 }
 
 body{
-  background: url(../img/bg-doodle.jpg) center center no-repeat;
+  background: url(../img/bg-doodle.jpg) center center no-repeat fixed;
   background-size: cover;
   width: 100%;
+}
+
+section{
+  overflow: hidden;
 }
 /*==========End Global Styles==========*/
 
 
 /*==========Header Styles==========*/
 header{
-
+  height: 100%;
 }
 /*==========End Header Styles==========*/
 
