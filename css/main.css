@@ -149,9 +149,10 @@ header{
 }
 
 .logobox{
-  height: 450px;
+  height: 50%;
   width: 35%;
-  margin: 80px auto;
+  min-width: 300px;
+  margin: 130px auto;
 }
 
 .logobox img{
