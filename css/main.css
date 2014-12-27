@@ -172,11 +172,15 @@ header{
   width: 100%;
 }
 
-.nav{
+nav{
   width: 100%;
   position: absolute;
   bottom: 0;
   font-size: 1.6rem;
+}
+
+nav ul li{
+  display: inline-block;
 }
 /*==========End Header Styles==========*/
 
