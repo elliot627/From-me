@@ -140,6 +140,12 @@ body{
 section{
   overflow: hidden;
 }
+
+a{
+  color: inherit;
+  text-decoration: none;
+  outline: none !important;
+}
 /*==========End Global Styles==========*/
 
 
