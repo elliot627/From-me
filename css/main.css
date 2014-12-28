@@ -180,7 +180,12 @@ nav{
 }
 
 nav ul li{
-  display: inline-block;
+
+}
+
+nav a{
+  display: block;
+  height: 100%;
 }
 /*==========End Header Styles==========*/
 
