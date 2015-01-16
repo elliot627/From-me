@@ -5,6 +5,10 @@ $(document).ready(function(){
 		mobileDeceleration: 0.0001
 	});
 
+	$('a').click(function(e){
+		e.preventDefault();
+	});
+
 	$(function() {
 		$('a[href*=#]:not([href=#])').click(function() {
 			if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
