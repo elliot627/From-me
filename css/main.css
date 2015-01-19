@@ -183,7 +183,8 @@ header{
 .logobox{
   height: auto;
   width: 35%;
-  min-width: 300px;
+  min-width: 250px;
+  max-width: 400px;
   margin-left: auto;
   margin-right: auto;
 }
