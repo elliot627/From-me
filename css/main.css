@@ -157,13 +157,13 @@ a{
   color: inherit;
   text-decoration: none;
   outline: none !important;
+  z-index: 9999;
 }
 /*==========End Global Styles==========*/
 
 
 /*==========Header Styles==========*/
 #skrollr-body{
-  float: left;
   width: 100%;
   height: 100%;
 }
