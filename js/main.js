@@ -1,5 +1,10 @@
 $(document).ready(function(){
 
+	$('.gallery-container').magnificPopup({
+		delegate: 'a',
+		type: 'image'
+	});
+
 	$('a').click(function(e){
 		e.preventDefault();
 	});
