@@ -107,7 +107,7 @@ textarea {
 
 
 
-
+/*==========CSS Reset==========*/
 
 *,
 *:before,
@@ -135,7 +135,7 @@ ul li {list-style-type: none;}
     clear: both;
 }
 
-/*end CSS Reset*/
+/*==========end CSS Reset==========*/
 
 /*==========Global Styles==========*/
 html, body{
