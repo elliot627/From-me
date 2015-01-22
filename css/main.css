@@ -250,7 +250,11 @@ nav ul li a{
   background: #37516d;
 }*/
 
-
+.fotorama-container{
+  width: 95%;
+  max-width: 1000px;
+  margin: 35px auto 0 auto;
+}
 /*==========End Work Section Styles==========*/
 
 
