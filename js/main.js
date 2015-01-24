@@ -1,8 +1,18 @@
 $(document).ready(function(){
 
+	//magnific-popup initializer
 	$('.gallery-container').magnificPopup({
 		delegate: 'a',
-		type: 'image'
+		type: 'image',
+		gallery: {
+			enabled: true,
+			preload: [1,2],
+			navigateByImgClick: true,
+			tPrev: 'Previous (left arrow key)',
+			tNext: 'Next (right arrow key)'
+		},
+		mainClass: 'mfp-with-zoom',
+		cursor: null
 	});
 
 	$('a').click(function(e){
