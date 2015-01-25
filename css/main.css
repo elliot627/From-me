@@ -276,6 +276,16 @@ nav ul li a{
   opacity: 0;
 }
 
+.video-container{
+  width: 80%;
+  margin: 0 auto 50px auto;
+}
+
+video{
+  width: 100%;
+  height; auto;
+  min-height: 300px;
+}
 /*==========End Work Section Styles==========*/
 
 
