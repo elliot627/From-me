@@ -1,6 +1,6 @@
 $(document).ready(function(){
 
-	//magnific-popup initializer
+	//magnific-popup gallery initializer
 	$('.gallery-container').magnificPopup({
 		delegate: 'a',
 		type: 'image',
@@ -14,6 +14,12 @@ $(document).ready(function(){
 		mainClass: 'mfp-with-zoom',
 		cursor: null
 	});
+
+
+	//magnific-popup html template data
+
+
+	//magnific-popup html template initializer
 
 	$('a').click(function(e){
 		e.preventDefault();
