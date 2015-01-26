@@ -21,7 +21,7 @@ $(document).ready(function(){
 
 	//magnific-popup html template initializer
 
-	$('a').click(function(e){
+	$('.not-a-link').click(function(e){
 		e.preventDefault();
 	});
 
