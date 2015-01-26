@@ -237,6 +237,32 @@ nav ul li a{
 
 
 /*==========Work Section Styles==========*/
+.categories-container{
+  width: 100%;
+}
+
+.category{
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  float: left;
+  width: 50%;
+  height: 350px;
+  background: #343434;
+}
+
+.motion-design{
+  width: 100%;
+  background: url('../img/category-motion.jpg') center center no-repeat;
+  background-size: cover;
+}
+
+.illustration{
+  background: url('');
+}
+
 /*.gallery-container{
   width: 95%;
   margin: 0 auto;
