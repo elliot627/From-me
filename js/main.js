@@ -18,14 +18,11 @@ $(document).ready(function(){
 	$('.open-popup').magnificPopup({
 		type: 'inline',
 		midClick: true,
-		alignTop: false
+		alignTop: false,
+		showCloseBtn: true,
+		closeBtnInside: false
 	});
 
-
-	//magnific-popup html template data
-
-
-	//magnific-popup html template initializer
 
 	$('.not-a-link').click(function(e){
 		e.preventDefault();
