@@ -15,6 +15,12 @@ $(document).ready(function(){
 		cursor: null
 	});
 
+	$('.open-popup').magnificPopup({
+		type: 'inline',
+		midClick: true,
+		alignTop: false
+	});
+
 
 	//magnific-popup html template data
 
