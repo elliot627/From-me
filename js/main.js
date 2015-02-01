@@ -23,15 +23,15 @@ $(document).ready(function(){
 	var data = [
 		{
 			motionTitle: "Mr. Fox Has a Plan",
-			video_src: "videos/mrFox.mp4",
+			source_src: "videos/mrFox.mp4",
 			video_id: "fox",
 			description: "Odd Future Banksy wolf Brooklyn, deep v fixie forage bitters trust fund Wes Anderson sriracha asymmetrical. Trust fund organic meditation ennui. Roof party quinoa next level distillery. Meh viral keytar, ennui you probably haven't heard of them fap fingerstache locavore slow-carb distillery organic 90's Vice Pitchfork Portland. Pickled artisan American Apparel Schlitz vinyl church-key, cray 90's biodiesel bicycle rights Pinterest Helvetica Kickstarter kitsch. Tattooed small batch Brooklyn, McSweeney's seitan church-key Pitchfork drinking vinegar crucifix. Pop-up Brooklyn Pitchfork, semiotics squid cardigan Wes Anderson stumptown readymade flexitarian."
 		},
 		{
 			motionTitle: "Just some family skiing",
-			video_src: "videos/skiing.mp4",
+			source_src: "videos/skiing.mp4",
 			video_id: "skiing",
-			description: "Odd Future Banksy wolf Brooklyn, deep v fixie forage bitters trust fund Wes Anderson sriracha asymmetrical. Trust fund organic meditation ennui. Roof party quinoa next level distillery. Meh viral keytar, ennui you probably haven't heard of them fap fingerstache locavore slow-carb distillery organic 90's Vice Pitchfork Portland. Pickled artisan American Apparel Schlitz vinyl church-key, cray 90's biodiesel bicycle rights Pinterest Helvetica Kickstarter kitsch. Tattooed small batch Brooklyn, McSweeney's seitan church-key Pitchfork drinking vinegar crucifix. Pop-up Brooklyn Pitchfork, semiotics squid cardigan Wes Anderson stumptown readymade flexitarian."
+			description: "Some other dynamic content Odd Future Banksy wolf Brooklyn, deep v fixie forage bitters trust fund Wes Anderson sriracha asymmetrical. Trust fund organic meditation ennui. Roof party quinoa next level distillery. Meh viral keytar, ennui you probably haven't heard of them fap fingerstache locavore slow-carb distillery organic 90's Vice Pitchfork Portland. Pickled artisan American Apparel Schlitz vinyl church-key, cray 90's biodiesel bicycle rights Pinterest Helvetica Kickstarter kitsch. Tattooed small batch Brooklyn, McSweeney's seitan church-key Pitchfork drinking vinegar crucifix. Pop-up Brooklyn Pitchfork, semiotics squid cardigan Wes Anderson stumptown readymade flexitarian."
 		}
 	];
 
@@ -41,8 +41,8 @@ $(document).ready(function(){
 		inline:{
 			markup:
 					'<div class="motion-popup"><div class="mfp-close"></div>'+
-						'<video>'+
-							'<source class="mfp-video" type="video/mp4">'+
+						'<video controls>'+
+							'<source class="mfp-source" type="video/mp4">'+
 						'</video>'+
 						'<h2 class="mfp-motionTitle"></h2>'+
 						'<p class="mfp-description"></p>'+
