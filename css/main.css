@@ -263,7 +263,6 @@ nav ul li a{
   width: 100%;
   height: 100%;
   display: block;
-  opacity: .97;
 }
 
 .category a:hover, .category a:hover h3{
@@ -273,7 +272,7 @@ nav ul li a{
 .category-title{
   margin: 0;
   padding: 0;
-  font-size: 3.4rem;
+  font-size: 5rem;
   color: #fff;
   font-family: 'Satisfy', HelveticaNeue-Light, Helvetica;
   width: 100%;
@@ -289,11 +288,16 @@ nav ul li a{
 }
 
 .motion-design a{
-  background: rgb(52,81,109);
+  background: rgba(52,81,109,.97);
 }
 
 .photography{
-  background: url('');
+  background: url('../img/category-bgs/photography.jpg') center center no-repeat;
+  background-size: cover;
+}
+
+.photography a{
+  background: rgba(159,87,44,.7);
 }
 
 /*Popup category styles*/
