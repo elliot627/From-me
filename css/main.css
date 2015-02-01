@@ -244,7 +244,7 @@ nav ul li a{
 }
 
 .categories-container{
-  width: 80%;
+  width: 100%;
   margin: 0 auto;
 }
 
@@ -256,7 +256,7 @@ nav ul li a{
   box-sizing: border-box;
   float: left;
   width: 50%;
-  height: 350px;
+  height: 150px;
 }
 
 .category a{
@@ -266,7 +266,7 @@ nav ul li a{
 }
 
 .category a:hover, .category a:hover h3{
-  opacity: 0;
+
 }
 
 .category-title{
@@ -278,7 +278,12 @@ nav ul li a{
   width: 100%;
   text-align: center;
   position: relative;
-  top: 40%;
+  top: 30%;
+}
+
+.slider-content{
+  height: 350px;
+  background: #EDCBAB;
 }
 
 .motion-design{
@@ -288,28 +293,29 @@ nav ul li a{
 }
 
 .motion-design a{
-  background: rgba(52,81,109,.97);
+  background: rgba(52,81,109,.87);
 }
 
 .photography{
+  width: 100%;
   background: url('../img/category-bgs/photography.jpg') center center no-repeat;
   background-size: cover;
 }
 
 .photography a{
-  background: rgba(159,87,44,.7);
+  background: rgba(159,87,44,.6);
 }
 
 /*Popup category styles*/
 .motion-popup{
   background: #eee;
-  margin: 0 auto;
+  margin: 50px auto 0 auto;
   max-width: 900px;
   height: 2000px;
 }
 
 .motion-popup video{
-  width: 100%;
+  width: 80%;
 }
 /*End Popup category styles*/
 

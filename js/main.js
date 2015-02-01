@@ -5,6 +5,12 @@ $(document).ready(function(){
 		e.preventDefault();
 	});
 
+	$('.slider-content').hide();
+
+	$('.category-trigger').click(function(){
+		$(this).siblings('.slider-content').slideToggle(400);
+	});
+
 	//magnific-popup gallery initializer
 	// $('.gallery-container').magnificPopup({
 	// 	delegate: 'a',
@@ -72,7 +78,7 @@ $(document).ready(function(){
 	      		if (target.length) {
 	        		$('html,body').animate({
           			scrollTop: target.offset().top
-	        		}, 1200);
+	        		}, 500);
 	        		return false;
 	      		}
 	    	}
