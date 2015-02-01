@@ -300,8 +300,8 @@ nav ul li a{
 .motion-popup{
   background: #eee;
   margin: 0 auto;
-  width: 85%;
-  min-height: 500px;
+  max-width: 900px;
+  height: 2000px;
 }
 
 .motion-popup video{
