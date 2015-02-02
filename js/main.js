@@ -27,12 +27,12 @@ $(document).ready(function(){
 	// });
 
 	var data = [
-		{
-			motionTitle: "Mr. Fox Has a Plan",
-			source_src: "videos/mrfox.mp4",
-			video_id: "fox",
-			description: "Odd Future Banksy wolf Brooklyn, deep v fixie forage bitters trust fund Wes Anderson sriracha asymmetrical. Trust fund organic meditation ennui. Roof party quinoa next level distillery. Meh viral keytar, ennui you probably haven't heard of them fap fingerstache locavore slow-carb distillery organic 90's Vice Pitchfork Portland. Pickled artisan American Apparel Schlitz vinyl church-key, cray 90's biodiesel bicycle rights Pinterest Helvetica Kickstarter kitsch. Tattooed small batch Brooklyn, McSweeney's seitan church-key Pitchfork drinking vinegar crucifix. Pop-up Brooklyn Pitchfork, semiotics squid cardigan Wes Anderson stumptown readymade flexitarian."
-		},
+		// {
+		// 	motionTitle: "Mr. Fox Has a Plan",
+		// 	source_src: "videos/mrfox.mp4",
+		// 	video_id: "fox",
+		// 	description: "Odd Future Banksy wolf Brooklyn, deep v fixie forage bitters trust fund Wes Anderson sriracha asymmetrical. Trust fund organic meditation ennui. Roof party quinoa next level distillery. Meh viral keytar, ennui you probably haven't heard of them fap fingerstache locavore slow-carb distillery organic 90's Vice Pitchfork Portland. Pickled artisan American Apparel Schlitz vinyl church-key, cray 90's biodiesel bicycle rights Pinterest Helvetica Kickstarter kitsch. Tattooed small batch Brooklyn, McSweeney's seitan church-key Pitchfork drinking vinegar crucifix. Pop-up Brooklyn Pitchfork, semiotics squid cardigan Wes Anderson stumptown readymade flexitarian."
+		// },
 		{
 			motionTitle: "Family skiing",
 			source_src: "videos/skiing.mp4",
