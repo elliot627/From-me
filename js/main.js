@@ -8,7 +8,7 @@ $(document).ready(function(){
 	$('.slider-content').hide();
 
 	$('.category-trigger').click(function(){
-		$(this).siblings('.slider-content').slideToggle(400);
+		$(this).siblings('.slider-content').slideToggle(600);
 	});
 
 	//magnific-popup gallery initializer
