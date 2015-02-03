@@ -304,6 +304,10 @@ nav ul li a{
   width: 50%;
 }
 
+.video-thumb.double{
+  width: 100%;
+}
+
 .video-popup{
   background: #edd7b0;
   margin: 50px auto 0 auto;
@@ -354,6 +358,10 @@ nav ul li a{
 .photo-thumb{
   height: 250px;
   width: 25%;
+}
+
+.photo-thumb.double{
+  width: 50%;
 }
 
 .mfp-figure .mfp-title{
