@@ -310,13 +310,18 @@ nav ul li a{
   background: rgba(73,41,21,.4);
 }
 
-.photography-gallery{
+.gallery{
   display: flex;
   display: -webkit-flex;
   display: -moz-flex;
   -webkit-flex-wrap: wrap;
   -moz-flex-wrap: wrap;
   flex-wrap: wrap;
+}
+
+.mfp-figure .mfp-title{
+  font-size: 1.9rem;
+  font-family: Arial, "Trebuchet MS", Helvetica, sans-serif
 }
 
 .digital .category-trigger{
