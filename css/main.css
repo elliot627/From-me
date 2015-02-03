@@ -244,7 +244,7 @@ nav ul li a{
 }
 
 .categories-container{
-  width: 100%;
+  width: 80%;
   margin: 0 auto;
 }
 
@@ -280,8 +280,8 @@ nav ul li a{
 
 .thumb{
   display: inline-block;
-  height: 200px;
-  width: 20%;
+  height: 250px;
+  width: 25%;
   margin: 0;
   padding: 0;
 }
