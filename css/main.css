@@ -263,7 +263,7 @@ nav ul li a{
 
 .category-title{
   margin: 0;
-  margin-top: 35px;
+  padding: 35px;
   font-size: 5rem;
   color: #fff;
   font-family: 'Satisfy', HelveticaNeue-Light, Helvetica;
@@ -273,28 +273,89 @@ nav ul li a{
 }
 
 .slider-content{
-  width: 80%;
+  max-width: 1000px;
   margin: 0 auto;
-  height: 350px;
   position: relative;
 }
 
-.motion-design{
+.thumb{
+  display: inline-block;
+  height: 200px;
+  width: 20%;
+  margin: 0;
+  padding: 0;
+}
+
+.thumb a{
+  height: 100%;
+  width: 100%;
+  display: block;
+}
+
+.motion-design .category-trigger{
   background: url('../img/category-bgs/motion/combo.png') center center no-repeat;
   background-size: cover;
 }
 
-.photography{
+.motion-design a h3{
+  background: rgba(20,34,72,.4);
+}
+
+.photography .category-trigger{
   background: url('../img/category-bgs/photography.jpg') center center no-repeat;
   background-size: cover;
 }
 
-.digital{
-  background: #673;
+.photography a h3{
+  background: rgba(73,41,21,.4);
+}
+
+.photography-gallery{
+  display: flex;
+  display: -webkit-flex;
+  display: -moz-flex;
+  -webkit-flex-wrap: wrap;
+  -moz-flex-wrap: wrap;
+  flex-wrap: wrap;
+}
+
+.digital .category-trigger{
+  background: url('../img/category-bgs/digitalart.jpg')center center no-repeat;
+  background-size: cover;
+}
+
+.digital a h3{
+  background: rgba(201,145,88,.4);
+}
+
+.category a:hover{
+  -webkit-animation: bgZoom .15s ease-in forwards;
+  -moz-animation: bgZoom .15s ease-in forwards;
+  -o-animation: bgZoom .15s ease-in forwards;
+  animation: bgZoom .15s ease-in forwards;
 }
 
 
 
+/*CSS3 Animation keyframes*/
+
+@-webkit-keyframes bgZoom{
+  from{background-size: 100%;}
+  to{background-size: 110%;}
+}
+@-moz-keyframes bgZoom{
+  from{background-size: 100%;}
+  to{background-size: 110%;}
+}
+@-o-keyframes bgZoom{
+  from{background-size: 100%;}
+  to{background-size: 110%;}
+}
+@keyframes bgZoom{
+  from{background-size: 100%;}
+  to{background-size: 110%;}
+}
+/*End CSS3 Animation keyframes*/
 
 
 /*Popup category styles*/
