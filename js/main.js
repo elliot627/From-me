@@ -11,8 +11,30 @@ $(document).ready(function(){
 		$(this).siblings('.slider-content').slideToggle(600);
 	});
 
-	//magnific-popup gallery initializer
-	$('.photography-gallery').magnificPopup({
+	$('.open-video-popup').magnificPopup({
+		type: 'inline'
+	});
+
+
+
+	//magnific-popup video gallery initializer (using inline item sources)
+	// $('.video-gallery').magnificPopup({
+	// 	delegate: 'a',
+	// 	type: 'inline',
+	// 	gallery: {
+	// 		enabled: true,
+	// 		tPrev: 'Previous (left arrow key)',
+	// 		tNext: 'Next (right arrow key)'
+	// 	},
+	// 	inline: {
+	// 		markup: '<div class="video-popup"><div class="mfp-close"></div>'+
+	// 					'<video controls class="video-js vjs-default-skin">'+
+	// 						'<source class="mfp-source" '
+	// 	}
+	// });
+
+	//magnific-popup photo gallery initializer
+	$('.photo-gallery').magnificPopup({
 		delegate: 'a',
 		type: 'image',
 		gallery: {
@@ -29,6 +51,7 @@ $(document).ready(function(){
 						'<div class="mfp-bottom-bar">'+
 							'<div class="mfp-title"></div>'+
 							'<div class="mfp-counter"></div>'+
+							'<div class="mfp-desc"></div>'+
 						'</div>'+
 					'</div>',
 			cursor: 'mfp-zoom-out',
@@ -38,7 +61,7 @@ $(document).ready(function(){
 	});
 
 
-	//Magnific popup initialzer for motion videos
+	//Magnific popup initialzer for motion videos (using js data sources)
 	// var data = [
 	// 	{
 	// 		motionTitle: "Mr. Fox Has a Plan",
@@ -60,22 +83,18 @@ $(document).ready(function(){
 	// 	}
 	// ];
 
-	// $('.open-motion-popup').magnificPopup({
+	// $('.video-gallery').magnificPopup({
 	// 	items: data,
 	// 	type: 'inline',
 	// 	inline:{
 	// 		markup:
-	// 				'<div class="motion-popup"><div class="mfp-close"></div>'+
-	// 					'<video controls>'+
+	// 				'<div class="video-popup"><div class="mfp-close"></div>'+
+	// 					'<video controls class="video-js vjs-default-skin">'+
 	// 						'<source class="mfp-source" type="video/mp4">'+
 	// 					'</video>'+
 	// 					'<h2 class="mfp-motionTitle"></h2>'+
 	// 					'<p class="mfp-description"></p>'+
 	// 				'</div>'
-	// 	},
-	// 	gallery:{
-	// 		enabled: true,
-	// 		preload: [0,2]
 	// 	},
 	// 	midClick: true,
 	// 	alignTop: false,

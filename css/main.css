@@ -280,8 +280,6 @@ nav ul li a{
 
 .thumb{
   display: inline-block;
-  height: 250px;
-  width: 25%;
   margin: 0;
   padding: 0;
 }
@@ -301,6 +299,40 @@ nav ul li a{
   background: rgba(20,34,72,.4);
 }
 
+.video-thumb{
+  height: 250px;
+  width: 50%;
+}
+
+.video-popup{
+  background: #edd7b0;
+  margin: 50px auto 0 auto;
+  max-width: 900px;
+  height: 2000px;
+}
+
+.video-popup video{
+  width: 100%;
+}
+
+.video-js{
+  width: 100% !important;
+  min-height: 500px;
+}
+
+.video-title{
+  font-size: 2rem;
+  font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; 
+  color: #37526d;
+  margin-left: 30px;
+}
+
+.video-desc{
+  padding-left: 45px;
+  padding-right: 45px;
+  font-size: 1.8rem;
+}
+
 .photography .category-trigger{
   background: url('../img/category-bgs/photography.jpg') center center no-repeat;
   background-size: cover;
@@ -317,6 +349,11 @@ nav ul li a{
   -webkit-flex-wrap: wrap;
   -moz-flex-wrap: wrap;
   flex-wrap: wrap;
+}
+
+.photo-thumb{
+  height: 250px;
+  width: 25%;
 }
 
 .mfp-figure .mfp-title{
@@ -363,18 +400,6 @@ nav ul li a{
 /*End CSS3 Animation keyframes*/
 
 
-/*Popup category styles*/
-.motion-popup{
-  background: #eee;
-  margin: 50px auto 0 auto;
-  max-width: 900px;
-  height: 2000px;
-}
-
-.motion-popup video{
-  width: 100%;
-}
-/*End Popup category styles*/
 
 /*.gallery-container{
   width: 95%;
