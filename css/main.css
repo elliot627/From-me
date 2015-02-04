@@ -324,6 +324,12 @@ nav ul li a{
   min-height: 500px;
 }
 
+.vjs-big-play-button{
+  position: relative !important;
+  top: 40% !important;
+  margin: 0 auto !important;
+}
+
 .video-title{
   font-size: 2rem;
   font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; 
@@ -335,12 +341,6 @@ nav ul li a{
   padding-left: 45px;
   padding-right: 45px;
   font-size: 1.8rem;
-}
-
-.vjs-big-play-button{
-  position: relative !important;
-  top: 40% !important;
-  margin: 0 auto !important;
 }
 
 .photography .category-trigger{
