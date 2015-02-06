@@ -238,13 +238,61 @@ nav ul li a{
 
 
 /*==========About Modal Styles==========*/
+  .mfp-container{
+
+  }
+
   #small-dialog {
     background: rgba(0,0,0,0);
-    padding: 20px 30px;
     text-align: left;
-    max-width: 400px;
-    margin: 40px auto;
+    color: #eee;
+    margin: 0 auto;
+    width: 100%;
+    max-width: 900px;
     position: relative;
+  }
+
+  #small-dialog .mfp-close{
+    color: #fff;
+    font-size: 50px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+  }
+
+  .about-content{
+    padding-top: 20px;
+    height: 100%;
+  }
+
+  .about-photo{
+    width: 30%;
+    display: inline-block;
+  }
+
+  .about-photo img{
+    position: absolute;
+    vertical-align: middle;
+    width: inherit;
+    top: 30%;
+  }
+
+  .about-desc{
+    display: inline-block;
+    width: 69%;
+    padding-left: 30px;
+    font-size: 1.6rem;
+  }
+
+  .bio-title{
+    display: block;
+    text-align: center;
+    font-size: 2.3rem;
+    width: 100%;
+  }
+
+  .resume{
+    text-decoration: underline;
+    color: #dce7f9;
   }
 /*==========End About Modal Styles==========*/
 

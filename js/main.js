@@ -26,6 +26,7 @@ $(document).ready(function(){
 		preloader: false,
 		midClick: true,
 		removalDelay: 300,
+		showCloseBtn: true,
 		mainClass: 'my-mfp-slide-bottom'
 	});
 
