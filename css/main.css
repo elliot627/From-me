@@ -344,6 +344,8 @@ nav ul li a{
   display: inline-block;
   margin: 0;
   padding: 0;
+  height: 250px;
+  width: 25%;
 }
 
 .thumb a{
@@ -423,12 +425,7 @@ nav ul li a{
   flex-wrap: wrap;
 }
 
-.photo-thumb{
-  height: 250px;
-  width: 25%;
-}
-
-.photo-thumb.double{
+.photo-gallery .double{
   width: 50%;
 }
 
