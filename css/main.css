@@ -218,14 +218,19 @@ nav ul{
   height: 100%;
   width: 100%;
   margin: 0 auto;
+  display: flex;
+  display: -webkit-flex;
+  display: -moz-flex;
+  -webkit-flex-wrap: wrap;
+  -moz-flex-wrap: wrap;
+  flex-wrap: wrap;
 }
 
 nav ul li{
   text-align: center;
   display: inline-block;
-  width: 25%;
+  width: 33.333%;
   height: 100%;
-  float: left;
 }
 
 nav ul li a{
@@ -403,6 +408,12 @@ nav ul li a{
   .video-desc{
     padding: 45px;
     font-size: 1.8rem;
+  }
+
+  .design-popup{
+    margin: 50px auto 0 auto;
+    max-width: 900px;
+    padding-bottom: 50px;
   }
 
   .photography .category-trigger{
