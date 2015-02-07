@@ -376,7 +376,6 @@ nav ul li a{
     background: #edd7b0;
     margin: 50px auto 0 auto;
     max-width: 900px;
-    height: 2000px;
   }
 
   .video-popup video{
@@ -402,8 +401,7 @@ nav ul li a{
   }
 
   .video-desc{
-    padding-left: 45px;
-    padding-right: 45px;
+    padding: 45px;
     font-size: 1.8rem;
   }
 
