@@ -416,6 +416,11 @@ nav ul li a{
   background: rgba(73,41,21,.4);
 }
 
+.illustration .category-trigger{
+  background: url('../img/category-bgs/illustration.jpg') center center no-repeat;
+  background-size: cover;
+}
+
 .gallery{
   display: flex;
   display: -webkit-flex;
