@@ -16,7 +16,7 @@ $(document).ready(function(){
 		type: 'inline'
 	});
 
-	//initializer for about modal
+	//initializer for about-me modal
 	$('.popup-with-move-anim').magnificPopup({
 		type: 'inline',
 		fixedContentPos: false,
@@ -46,7 +46,7 @@ $(document).ready(function(){
 	// 	}
 	// });
 
-	//magnific-popup photo gallery initializer
+	//photography gallery initializer
 	$('.photo-gallery').magnificPopup({
 		delegate: 'a',
 		type: 'image',
@@ -73,6 +73,59 @@ $(document).ready(function(){
 		}
 	});
 
+	//digital media gallery initializer
+	$('.digital-gallery').magnificPopup({
+		delegate: 'a',
+		type: 'image',
+		gallery: {
+			enabled: true,
+			preload: [1,2],
+			navigateByImgClick: true,
+			tPrev: 'Previous (left arrow key)',
+			tNext: 'Next (right arrow key)'
+		},
+		image: {
+			markup: '<div class="mfp-figure">'+
+						'<div class="mfp-close"></div>'+
+						'<div class="mfp-img"></div>'+
+						'<div class="mfp-bottom-bar">'+
+							'<div class="mfp-title"></div>'+
+							'<div class="mfp-counter"></div>'+
+							'<div class="mfp-desc"></div>'+
+						'</div>'+
+					'</div>',
+			cursor: 'mfp-zoom-out',
+			verticalFit: true,
+			tError: '<a href="%url%">The image</a> could not be loaded.'
+		}
+	});
+
+	//illustration gallery initializer
+	$('.illustration-gallery').magnificPopup({
+		delegate: 'a',
+		type: 'image',
+		gallery: {
+			enabled: true,
+			preload: [1,2],
+			navigateByImgClick: true,
+			tPrev: 'Previous (left arrow key)',
+			tNext: 'Next (right arrow key)'
+		},
+		image: {
+			markup: '<div class="mfp-figure">'+
+						'<div class="mfp-close"></div>'+
+						'<div class="mfp-img"></div>'+
+						'<div class="mfp-bottom-bar">'+
+							'<div class="mfp-title"></div>'+
+							'<div class="mfp-counter"></div>'+
+							'<div class="mfp-desc"></div>'+
+						'</div>'+
+					'</div>',
+			cursor: 'mfp-zoom-out',
+			verticalFit: true,
+			tError: '<a href="%url%">The image</a> could not be loaded.'
+		}
+	});
 
 	//Magnific popup initialzer for motion videos (using js data sources)
 	// var data = [
@@ -115,7 +168,7 @@ $(document).ready(function(){
 	// 	closeBtnInside: true
 	// });
 	
-
+	//javascript smoothscroll
 	$(function() {
 		$('a[href*=#]:not([href=#])').click(function() {
 			if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
