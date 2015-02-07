@@ -126,6 +126,7 @@ html{
 
 img{border: 0;}
 ul li {list-style-type: none;}
+ul{padding: 0;}
 
 .left{float:left;}
 .right{float:right;}
@@ -300,7 +301,7 @@ nav ul li a{
 
 section{
   background: url('../img/mountain.jpg') bottom center no-repeat fixed;
-  padding-bottom: 350px;
+  padding-bottom: 100px;
 }
 
 /*==========Work Section Styles==========*/
@@ -418,6 +419,10 @@ section{
     padding-bottom: 50px;
   }
 
+  .design-popup img{
+    width: 100%;
+  }
+
   .photography .category-trigger{
     background: url('../img/category-bgs/photography.jpg') center center no-repeat;
     background-size: cover;
@@ -483,17 +488,38 @@ section{
     display: block;
     width: 100%;
     text-align: center;
-    margin: 35px 0;
+    margin: 50px 0;
     font-size: 4rem;
     text-shadow: 1px 1px 5px #000;
   }
 
   .social{
+    width: 300px;
+    margin: 0 auto;
+  }
+
+  .social ul{
     width: 100%;
+    display: flex;
+    display: -webkit-flex;
+    display: -moz-flex;
+    -webkit-flex-wrap: wrap;
+    -moz-flex-wrap: wrap;
+    flex-wrap: wrap;
   }
 
   .social ul li{
     display: inline-block;
+    font-size: 6rem;
+    width: 33.333333%;
+    text-align: center;
+  }
+
+  .social ul li:hover{
+    -webkit-transform: translateY(-3px);
+    -moz-transform: translateY(-3px);
+    -o-transform: translateY(-3px);
+    transform: translateY(-3px);
   }
 /*End Connect Section Styles*/
 
@@ -576,20 +602,6 @@ section{
     opacity: 0;
   }
 /*End About modal animation*/
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
