@@ -421,6 +421,10 @@ nav ul li a{
     background-size: cover;
   }
 
+  .illustration-gallery .third{
+    width: 33.33333%;
+  }
+
   .gallery{
     display: flex;
     display: -webkit-flex;
