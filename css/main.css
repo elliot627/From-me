@@ -353,7 +353,7 @@ section{
   }
 
   .motion-design .category-trigger{
-    background: url('../img/category-bgs/motion.jpg') center center no-repeat;
+    background: url('../img/category-bgs/motion.jpg') center 35% no-repeat;
     background-size: cover;
   }
 
