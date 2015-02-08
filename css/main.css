@@ -262,27 +262,19 @@ nav ul li a{
   }
 
   .about-content{
-    padding-top: 20px;
     height: 100%;
-  }
-
-  .about-photo{
-    width: 30%;
-    display: inline-block;
-  }
-
-  .about-photo img{
-    position: absolute;
-    vertical-align: middle;
-    width: inherit;
-    top: 30%;
-  }
-
-  .about-desc{
-    display: inline-block;
-    width: 69%;
+    display: inline;
     padding-left: 30px;
     font-size: 1.6rem;
+  }
+
+  .about-content h2{
+    margin-top: 0;
+  }
+
+  .about-content img{
+    margin: 0 20px 25px 0;
+    float: left;
   }
 
   .bio-title{
@@ -292,7 +284,7 @@ nav ul li a{
     width: 100%;
   }
 
-  .resume{
+  .bio-link{
     text-decoration: underline;
     color: #dce7f9;
   }
