@@ -30,22 +30,6 @@ $(document).ready(function(){
 		mainClass: 'my-mfp-slide-bottom'
 	});
 
-	//magnific-popup video gallery initializer (using inline item sources)
-	// $('.video-gallery').magnificPopup({
-	// 	delegate: 'a',
-	// 	type: 'inline',
-	// 	gallery: {
-	// 		enabled: true,
-	// 		tPrev: 'Previous (left arrow key)',
-	// 		tNext: 'Next (right arrow key)'
-	// 	},
-	// 	inline: {
-	// 		markup: '<div class="video-popup"><div class="mfp-close"></div>'+
-	// 					'<video controls class="video-js vjs-default-skin">'+
-	// 						'<source class="mfp-source" '
-	// 	}
-	// });
-
 	//photography gallery initializer
 	$('.photo-gallery').magnificPopup({
 		delegate: 'a',
