@@ -467,10 +467,10 @@ section{
   }
 
   .category a:hover{
-    -webkit-animation: bgZoom .15s ease-in forwards;
-    -moz-animation: bgZoom .15s ease-in forwards;
-    -o-animation: bgZoom .15s ease-in forwards;
-    animation: bgZoom .15s ease-in forwards;
+    -webkit-animation: bgZoom .3s ease-in forwards;
+    -moz-animation: bgZoom .3s ease-in forwards;
+    -o-animation: bgZoom .3s ease-in forwards;
+    animation: bgZoom .3s ease-in forwards;
   }
 /*==========End Work Section Styles==========*/
 
@@ -530,23 +530,21 @@ section{
 /*Background zoom animation keyframes*/
   @-webkit-keyframes bgZoom{
     from{background-size: 100%;}
-    to{background-size: 110%;}
+    to{background-size: 105%;}
   }
   @-moz-keyframes bgZoom{
     from{background-size: 100%;}
-    to{background-size: 110%;}
+    to{background-size: 105%;}
   }
   @-o-keyframes bgZoom{
     from{background-size: 100%;}
-    to{background-size: 110%;}
+    to{background-size: 105%;}
   }
   @keyframes bgZoom{
     from{background-size: 100%;}
-    to{background-size: 110%;}
+    to{background-size: 105%;}
   }
 /*End Background zoom animation keyframes*/
-
-
 
 
 /*About modal animation*/
