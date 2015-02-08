@@ -431,7 +431,7 @@ section{
   }
 
   .illustration .category-trigger{
-    background: url('../img/category-bgs/illustration.jpg') center center no-repeat;
+    background: url('../img/category-bgs/illustration.jpg') top center no-repeat;
     background-size: cover;
   }
 
