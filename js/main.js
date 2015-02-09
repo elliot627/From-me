@@ -8,7 +8,8 @@ $(document).ready(function(){
 	$('.slider-content').hide();
 
 	$('.category-trigger').click(function(){
-		$(this).siblings('.slider-content').slideToggle(600);
+		$('.slider-content').not($(this).siblings('.slider-content')).slideUp(400);
+		$(this).siblings('.slider-content').slideToggle(400);
 	});
 
 	//initializer for motion videos
