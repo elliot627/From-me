@@ -422,15 +422,6 @@ section{
     width: 100%;
   }
 
-  .photography .category-trigger{
-    background: url('../img/category-bgs/photography.jpg') center center no-repeat;
-    background-size: cover;
-  }
-
-  .photography a h3{
-    background: rgba(73,41,21,.4);
-  }
-
   .illustration .category-trigger{
     background: url('../img/category-bgs/illustration.jpg') top center no-repeat;
     background-size: cover;
