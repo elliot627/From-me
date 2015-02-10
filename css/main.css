@@ -275,6 +275,8 @@ nav ul li a{
   .about-content img{
     margin: 0 20px 20px 0;
     float: left;
+    -webkit-border-radius: 3px;
+    border-radius: 3px;
   }
 
   .bio-title{
@@ -450,7 +452,7 @@ section{
   }
 
   .digital .category-trigger{
-    background: url('../img/category-bgs/digitalart.jpg')center center no-repeat;
+    background: url('../img/category-bgs/digital.jpg')center center no-repeat;
     background-size: cover;
   }
 
