@@ -160,6 +160,10 @@ a{
   outline: none !important;
   z-index: 9999;
 }
+
+.vjs-default-skin .vjs-big-play-button{
+  left: 0;
+}
 /*==========End Global Styles==========*/
 
 
@@ -178,20 +182,39 @@ header{
 
 .head{
   padding-top: 80px;
-  text-align: center;
+  display: flex;
+  display: -webkit-flex;
+  display: -moz-flex;
+  -webkit-flex-wrap: wrap;
+  -moz-flex-wrap: wrap;
+  flex-wrap: wrap;
 }
 
 .logobox{
-  height: auto;
-  width: 35%;
-  min-width: 250px;
-  max-width: 400px;
-  margin-left: auto;
-  margin-right: auto;
+  width: 50%;
+  padding: 0 85px;
 }
 
 .logobox img{
   width: 100%;
+  max-width: 350px;
+  display: block;
+  margin: 55px auto;
+}
+
+.demobox{
+  width: 50%;
+  padding: 80px 50px;
+}
+
+.demobox *{
+  -webkit-border-radius: 4px;
+  border-radius: 4px;
+}
+
+.demobox .video-js{
+  min-height: 300px !important; 
+  height: auto;
 }
 
 .arrow-box{
@@ -211,6 +234,8 @@ nav{
   font-size: 2.2rem;
   color: #37516d;
   background: #eee;
+  -webkit-box-shadow: 0 -3px 20px 1px #000;
+  box-shadow: 0 -3px 20px 1px #000;
 }
 
 nav ul{
