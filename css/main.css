@@ -293,7 +293,7 @@ nav ul li a{
 /*==========End About Modal Styles==========*/
 
 section{
-  background: url('../img/mountain.jpg') bottom center no-repeat fixed;
+  background: url('../img/category-bgs/connect.jpg') bottom center no-repeat fixed;
   background-size: cover;
   padding-bottom: 100px;
 }
@@ -477,18 +477,9 @@ section{
     color: #fff;
   }
 
-  .connect h2{
-    display: block;
-    width: 100%;
-    text-align: center;
-    margin: 50px 0;
-    font-size: 4rem;
-    text-shadow: 1px 1px 5px #000;
-  }
-
   .social{
     width: 300px;
-    margin: 0 auto;
+    margin: 80px auto 0 auto;
   }
 
   .social ul{
