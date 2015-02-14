@@ -206,7 +206,11 @@ header{
 .arrow{
   width: 100%;
 }
+/*==========End Header Styles==========*/
 
+
+
+/*==========Nav Styles==========*/
 nav{
   width: 100%;
   height: 50px;
@@ -254,8 +258,7 @@ nav ul li a{
   height: 100%;
   padding: 10px 15px;
 }
-/*==========End Header Styles==========*/
-
+/*==========End Nav Styles==========*/
 
 
 /*==========About Modal Styles==========*/
