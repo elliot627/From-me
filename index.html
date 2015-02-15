@@ -33,21 +33,20 @@
             <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
         <![endif]-->
         <header>
-            <div class="logobox">
-                <img alt="Morgan Fromme Personal Logo" src="img/logo.png" />
+            <div class="splash">
+                <div class="logobox">
+                    <img alt="Morgan Fromme Personal Logo" src="img/logo.png" />
+                </div>
+                <div class="arrow-box">
+                    <a class="arrow not-a-link" href="#demo"><i class="fa fa-angle-double-down"> </i><h2>Demo Reel</h2><i class="fa fa-angle-double-down"> </i></a>
+                </div>
             </div>
-            <div class="arrow-box">
-                <a class="arrow not-a-link" href="#navbar"><i class="fa fa-angle-double-down fa-3x" style="color:#492915; font-size:5rem;"> </i></a>
+            <div class="demobox" id="demo">
+                <video preload="none" data-setup class="video-js vjs-default-skin" poster="img/thumbnails/motion/natgeo.png" controls>
+                    <source type="video/mp4" src="videos/demoreel.mp4">
+                </video>
             </div>
         </header>
-
-        <nav id="navbar">
-            <ul>
-                <li style="text-align:right;"><a href="#work" class="not-a-link">Work</a></li>
-                <li class="divider"><div></div></li>
-                <li><a href="#small-dialog" class="not-a-link popup-with-move-anim">About</a></li>
-            </ul>
-        </nav>
 
         <div id="small-dialog" class="zoom-anim-dialog mfp-hide">    
             <div class="about-content">
@@ -71,11 +70,14 @@
                 </p>
              </div>
         </div>
-        <section class="demo">
-            <video preload="none" data-setup class="video-js vjs-default-skin" poster="img/thumbnails/motion/natgeo.png" controls>
-                <source type="video/mp4" src="videos/demoreel.mp4">
-            </video>
-        </section>
+
+        <nav id="navbar">
+            <ul>
+                <li style="text-align:right;"><a href="#work" class="not-a-link">Work</a></li>
+                <li class="divider"><div></div></li>
+                <li><a href="#small-dialog" class="not-a-link popup-with-move-anim">About</a></li>
+            </ul>
+        </nav>
 
         <section id="work">
             <div class="work-main">
