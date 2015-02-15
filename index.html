@@ -38,13 +38,24 @@
                     <img alt="Morgan Fromme Personal Logo" src="img/logo.png" />
                 </div>
                 <div class="arrow-box">
-                    <a class="arrow not-a-link" href="#demo"><i class="fa fa-angle-double-down"> </i><h2>Demo Reel</h2><i class="fa fa-angle-double-down"> </i></a>
+                    <a class="arrow not-a-link" href="#demo-wrap"><i class="fa fa-angle-double-down"> </i><h2>Demo Reel</h2><i class="fa fa-angle-double-down"> </i></a>
                 </div>
             </div>
-            <div class="demobox" id="demo">
-                <video preload="none" data-setup class="video-js vjs-default-skin" poster="img/thumbnails/motion/natgeo.png" controls>
-                    <source type="video/mp4" src="videos/demoreel.mp4">
-                </video>
+            <div class="demo-wrap" id="demo-wrap">
+                <div class="demo-video" id="demo">
+                    <div class="responsive-vidbox">
+                        <video preload="none" data-setup class="video-js vjs-default-skin" poster="img/thumbnails/motion/natgeo.png" controls>
+                            <source type="video/mp4" src="videos/demoreel.mp4">
+                        </video>
+                    </div>
+                </div>
+                <nav id="navbar">
+                    <ul>
+                        <li style="text-align:right;"><a href="#work" class="not-a-link">Work</a></li>
+                        <li class="divider"><div></div></li>
+                        <li><a href="#small-dialog" class="not-a-link popup-with-move-anim">About</a></li>
+                    </ul>
+                </nav>
             </div>
         </header>
 
@@ -70,14 +81,6 @@
                 </p>
              </div>
         </div>
-
-        <nav id="navbar">
-            <ul>
-                <li style="text-align:right;"><a href="#work" class="not-a-link">Work</a></li>
-                <li class="divider"><div></div></li>
-                <li><a href="#small-dialog" class="not-a-link popup-with-move-anim">About</a></li>
-            </ul>
-        </nav>
 
         <section id="work">
             <div class="work-main">
@@ -424,9 +427,11 @@
 
                     <!-- Video content popups -->
                     <div id="warpaint" class="mfp-hide video-popup"  style="width: 100%">
-                        <video preload="none" data-setup class="video-js vjs-default-skin" controls>
-                            <source src="videos/warpaint.mp4" type"video/mp4">
-                        </video>
+                        <div class="responsive-vidbox">
+                            <video preload="none" data-setup class="video-js vjs-default-skin" controls>
+                                <source src="videos/warpaint.mp4" type"video/mp4">
+                            </video>
+                        </div>
                         <h2 class="video-title">War Paint - 2015</h2>
                         <p class="video-desc">
                             The first project brief in Time Based Typography at SCAD was to create a video using an intonation. I created a typographic representation of the lyrics to the song “War Paint” by Tiffany Gia. 
@@ -435,9 +440,11 @@
                         </p>
                     </div>
                     <div id="vuevent" class="mfp-hide video-popup"  style="width: 100%">
-                        <video preload="none" data-setup class="video-js vjs-default-skin" controls>
-                            <source src="videos/vuevent.mp4" type"video/mp4">
-                        </video>
+                        <div class="responsive-vidbox">
+                            <video preload="none" data-setup class="video-js vjs-default-skin" controls>
+                                <source src="videos/vuevent.mp4" type"video/mp4">
+                            </video>
+                        </div>
                         <h2 class="video-title">Vuevent App Promotion Video - 2014</h2>
                         <p class="video-desc">
                             Vuevent is a personalized web platform and app that allows you to discover events in your community that you care about. I made this for them as a promotional/informative video. Check it out Vuevent <a href="https://vuevent.com" target="_blank" class="video-desc-link">here</a>!
@@ -447,9 +454,11 @@
                         </p>
                     </div>
                     <div id="mrfox" class="mfp-hide video-popup"  style="width: 100%">
-                        <video preload="none" data-setup class="video-js vjs-default-skin" controls>
-                            <source src="videos/mrfox.mp4" type"video/mp4">
-                        </video>
+                        <div class="responsive-vidbox">
+                            <video preload="none" data-setup class="video-js vjs-default-skin" controls>
+                                <source src="videos/mrfox.mp4" type"video/mp4">
+                            </video>
+                        </div>
                         <h2 class="video-title">Mr Fox Has a Plan - 2015</h2>
                         <p class="video-desc">
                             This project, created in Motion Techniques II at SCAD, is my own typographic interpretation of a scene from the movie, “Fantastic Mr. Fox” directed by Wes Anderson. The clip is from a scene when Mr. Fox is plotting his ‘Master Plan’ with his trusty sidekick, Kylie, to steal from the meanest farmers around: Boggis, Bunce and Bean. “Fantastic Mr. Fox” is hands-down my favorite movie of all time and I would definitely recommend it to anyone who hasn’t seen it.
@@ -458,9 +467,11 @@
                         </p>
                     </div>
                     <div id="goodsoil" class="mfp-hide video-popup"  style="width: 100%">
-                        <video preload="none" data-setup class="video-js vjs-default-skin" controls>
-                            <source src="videos/goodsoil.mp4" type"video/mp4">
-                        </video>
+                        <div class="responsive-vidbox">
+                            <video preload="none" data-setup class="video-js vjs-default-skin" controls>
+                                <source src="videos/goodsoil.mp4" type"video/mp4">
+                            </video>
+                        </div>
                         <h2 class="video-title">Good Soil Promotional Video - 2014</h2>
                         <p class="video-desc">
                             The third project in Concepts in Motion at SCAD was to create an infographic for the company Good Soil. Good Soil is a nonprofit that started Thankful Foods, which sends food to malnourished children in India. The purpose of this video is to be displayed on their website to inform viewers about what Good Soil does.
@@ -469,9 +480,11 @@
                         </p>
                     </div>
                     <div id="natgeo" class="mfp-hide video-popup"  style="width: 100%">
-                        <video preload="none" data-setup class="video-js vjs-default-skin" controls>
-                            <source src="videos/natgeo.mp4" type"video/mp4">
-                        </video>
+                        <div class="responsive-vidbox">
+                            <video preload="none" data-setup class="video-js vjs-default-skin" controls>
+                                <source src="videos/natgeo.mp4" type"video/mp4">
+                            </video>
+                        </div>
                         <h2 class="video-title">National Geographic Network ID - 2014</h2>
                         <p class="video-desc">
                             The brief behind this first project in Concepts in Motion at SCAD was to create a 30-second Network ID for the National Geographic Channel. The viewer follows a yellow line around the globe, representing what the Nat Geo network achieves through its programming.
@@ -480,9 +493,11 @@
                         </p>
                     </div>
                     <div id="vans" class="mfp-hide video-popup"  style="width: 100%">
-                        <video preload="none" data-setup class="video-js vjs-default-skin" controls>
-                            <source src="videos/vans.mp4" type"video/mp4">
-                        </video>
+                        <div class="responsive-vidbox">
+                            <video preload="none" data-setup class="video-js vjs-default-skin" controls>
+                                <source src="videos/vans.mp4" type"video/mp4">
+                            </video>
+                        </div>
                         <h2 class="video-title">Vans Commercial - 2014</h2>
                         <p class="video-desc">
                             Created in Motion Techniques I at SCAD, I made this video as a commercial for the Vans shoe: The Camryn Hawaii Print.
