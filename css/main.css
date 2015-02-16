@@ -193,6 +193,14 @@ a{
 
 
 /*==========Header Styles==========*/
+.logo-social-container{
+  position: absolute;
+  top: 10%;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+}
+
 .demo-nav-container{
   width: 100%;
   position: relative;
