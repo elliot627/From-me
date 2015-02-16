@@ -194,13 +194,12 @@ a{
 
 /*==========Header Styles==========*/
 header{
-  height: 200%;
   width: 100%;
   position: relative;
 }
 
 .splash{
-  height: 50%;
+  height: 100%;
   position: relative;
 }
 
@@ -237,14 +236,17 @@ header{
 .demo-wrap{
   height: 50%;
   position: relative;
+  -webkit-box-shadow: 0 -3px 20px 1px #000;
+  box-shadow: 0 -3px 20px 1px #000;
 }
 
 .demo-video{
-  padding-top: 50px;
-  max-width: 800px;
+  max-width: 100%;
+  position: initial;
   margin: 0 auto;
   -webkit-filter: drop-shadow(0px 30px 17px rgba(0,0,0,0.7));
   filter: drop-shadow(0px 30px 17px rgba(0,0,0,0.7));
+  padding-bottom: 50px;
 }
 
 .demo-video, .demo-video *{
@@ -262,8 +264,6 @@ nav{
   font-size: 2.2rem;
   color: #37516d;
   background: #eee;
-  -webkit-box-shadow: 0 -3px 20px 1px #000;
-  box-shadow: 0 -3px 20px 1px #000;
   position: absolute;
   bottom: 0;
 }
