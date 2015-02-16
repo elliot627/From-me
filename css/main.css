@@ -164,55 +164,106 @@ a{
 .vjs-default-skin .vjs-big-play-button{
   left: 0;
 }
+
+.responsive-vidbox {
+    padding-top: 56.35%;
+    width: 100%;
+    position: relative;
+}
+
+.responsive-vidbox .video-js {
+    height: 100% !important; 
+    width: 100% !important;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.vjs-big-play-button{
+  position: relative !important;
+  top: 40% !important;
+  margin: 0 auto !important;
+}
+
+.vjs-control-bar, .vjs-control-bar *{
+  -webkit-border-radius: 0px !important;
+  border-radius: 0px !important;
+}
 /*==========End Global Styles==========*/
 
 
 /*==========Header Styles==========*/
-/*#skrollr-body{
-  width: 100%;
-  height: 100%;
-}
-*/
 header{
-  height: 100%;
-  min-height: 500px;
   width: 100%;
+  position: relative;
+}
+
+.splash{
+  height: 100%;
   position: relative;
 }
 
 .logobox{
   width: 100%;
-  padding: 0 85px;
   position: relative;
-  top: 10%; 
+  top: 10%;
 }
 
 .logobox img{
   width: 100%;
-  max-width: 350px;
+  max-width: 35%;
   display: block;
   margin: 0 auto;
+  -webkit-filter: drop-shadow(0px 30px 17px rgba(0,0,0,0.7));
+  filter: drop-shadow(0px 30px 17px rgba(0,0,0,0.7));
 }
 
-.arrow-box{
-  position: absolute;
-  bottom: 20px;
+.scroll-bait{
   width: 100%;
+  display: block;
   text-align: center;
+  color: #492915;
+  /*font-size: 6rem;*/
+  position: absolute;
+  bottom: 0px;
 }
 
-.arrow{
-  width: 100%;
+.arrow *{
+  display: inline-block;
+  height: 100%;
 }
 
+.demo-wrap{ 
+  -webkit-box-shadow: 0 -3px 20px 1px #000;
+  box-shadow: 0 -3px 20px 1px #000;
+  padding-bottom: 50px;
+
+}
+
+.demo-video{
+  max-width: 100%;
+  margin: 0 auto;
+  -webkit-filter: drop-shadow(0px 30px 17px rgba(0,0,0,0.7));
+  filter: drop-shadow(0px 30px 17px rgba(0,0,0,0.7));
+}
+
+.demo-video, .demo-video *{
+  -webkit-border-radius: 4px;
+  border-radius: 4px;
+}
+/*==========End Header Styles==========*/
+
+
+
+/*==========Nav Styles==========*/
 nav{
   width: 100%;
   height: 50px;
   font-size: 2.2rem;
   color: #37516d;
   background: #eee;
-  -webkit-box-shadow: 0 -3px 20px 1px #000;
-  box-shadow: 0 -3px 20px 1px #000;
+  position: absolute;
+  bottom: 0;
 }
 
 nav ul{
@@ -252,8 +303,7 @@ nav ul li a{
   height: 100%;
   padding: 10px 15px;
 }
-/*==========End Header Styles==========*/
-
+/*==========End Nav Styles==========*/
 
 
 /*==========About Modal Styles==========*/
@@ -310,17 +360,13 @@ section{
   background-size: cover;
 }
 
-/*==========Demo Reel Section Styles==========*/
-.demo{
-  width: 100%;
-}
-/*==========End Demo Reel Section Styles==========*/
-
 /*==========Work Section Styles==========*/
+  section.main{
+  }
+
   .work-main{
     width: 100%;
     background: #edd7b0;
-    overflow: auto;
     -webkit-box-shadow: 0 10px 25px 1px #000;
     box-shadow: 0 10px 25px 1px #000;
   }
@@ -399,17 +445,6 @@ section{
 
   .video-popup video{
     width: 100%;
-  }
-
-  .video-js{
-    width: 100% !important;
-    min-height: 500px;
-  }
-
-  .vjs-big-play-button{
-    position: relative !important;
-    top: 40% !important;
-    margin: 0 auto !important;
   }
 
   .video-title{
@@ -494,6 +529,8 @@ section{
     height: 100%;
     color: #fff;
     padding: 75px 0;
+    position: relative;
+    bottom: 0;
   }
 
   .social{
