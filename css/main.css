@@ -193,7 +193,7 @@ a{
 
 
 /*==========Header Styles==========*/
-header{
+.demo-nav-container{
   width: 100%;
   position: relative;
 }
@@ -216,6 +216,42 @@ header{
   margin: 0 auto;
   -webkit-filter: drop-shadow(0px 30px 17px rgba(0,0,0,0.7));
   filter: drop-shadow(0px 30px 17px rgba(0,0,0,0.7));
+}
+
+.social{
+  width: 300px;
+  margin: 100px auto;
+  position: relative;
+}
+
+.social ul{
+  width: 100%;
+  display: flex;
+  display: -webkit-flex;
+  display: -moz-flex;
+  -webkit-flex-wrap: wrap;
+  -moz-flex-wrap: wrap;
+  flex-wrap: wrap;
+}
+
+.social ul li{
+  display: inline-block;
+  font-size: 6rem;
+  width: 33.333333%;
+  text-align: center;
+}
+
+.social ul li a{
+  display: block;
+  height: 100%;
+  width: 100%;
+}
+
+.social ul li a:hover{
+  -webkit-transform: translateY(-3px);
+  -moz-transform: translateY(-3px);
+  -o-transform: translateY(-3px);
+  transform: translateY(-3px);
 }
 
 .scroll-bait{
@@ -521,52 +557,7 @@ section{
   }
 /*==========End Work Section Styles==========*/
 
-/*Connect Section Styles*/
-  .connect{
-    font-family:"Raleway", "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
-    width: 100%;
-    height: 100%;
-    color: #fff;
-    padding: 75px 0;
-    position: relative;
-    bottom: 0;
-  }
 
-  .social{
-    width: 300px;
-    margin: 0 auto;
-  }
-
-  .social ul{
-    width: 100%;
-    display: flex;
-    display: -webkit-flex;
-    display: -moz-flex;
-    -webkit-flex-wrap: wrap;
-    -moz-flex-wrap: wrap;
-    flex-wrap: wrap;
-  }
-
-  .social ul li{
-    display: inline-block;
-    font-size: 6rem;
-    width: 33.333333%;
-    text-align: center;
-  }
-
-  .social ul li a{
-    display: block;
-    height: 100%;
-    width: 100%;
-  }
-
-  .social ul li:hover{
-    -webkit-transform: translateY(-3px);
-    -moz-transform: translateY(-3px);
-    -o-transform: translateY(-3px);
-    transform: translateY(-3px);
-  }
-/*End Connect Section Styles*/
 
 /*Background zoom animation keyframes*/
   @-webkit-keyframes bgZoom{
