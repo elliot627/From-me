@@ -308,6 +308,11 @@ a{
   bottom: 0;
 }
 
+.divider.reel{
+  position: relative;
+  bottom: initial;
+}
+
 .divider h2{
   text-align: center;
   width: 100%;
