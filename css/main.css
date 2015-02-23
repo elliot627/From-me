@@ -249,17 +249,16 @@ a{
 
 .social ul li a{
   display: block;
+  transition: all .2s ease;
   height: 100%;
   width: 100%;
-  -webkit-filter: drop-shadow(0px 30px 4px rgba(0,0,0,0.7));
-  filter: drop-shadow(0px 30px 4px rgba(0,0,0,0.7));
 }
 
 .social ul li a:hover{
-  -webkit-transform: translateY(-3px);
-  -moz-transform: translateY(-3px);
-  -o-transform: translateY(-3px);
-  transform: translateY(-3px);
+  -webkit-transform: scale(1.07);
+  -moz-transform: scale(1.07);
+  -o-transform: scale(1.07);
+  transform: scale(1.07);
 }
 
 .scroll-bait{
