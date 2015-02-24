@@ -252,13 +252,17 @@ a{
   transition: all .2s ease;
   height: 100%;
   width: 100%;
+  -webkit-transform: scale(.9);
+  -moz-transform: scale(.9);
+  -o-transform: scale(.9);
+  transform: scale(.9);
 }
 
 .social ul li a:hover{
-  -webkit-transform: scale(1.07);
-  -moz-transform: scale(1.07);
-  -o-transform: scale(1.07);
-  transform: scale(1.07);
+  -webkit-transform: scale(1);
+  -moz-transform: scale(1);
+  -o-transform: scale(1);
+  transform: scale(1);
 }
 
 .scroll-bait{
