@@ -154,11 +154,10 @@ section{
   overflow: hidden;
 }
 
-a{
-  color: inherit;
-  text-decoration: none;
+a, a:hover a.visited{
+  color: inherit !important;
+  text-decoration: none !important;
   outline: none !important;
-  z-index: 9999;
 }
 
 .vjs-default-skin .vjs-big-play-button{
@@ -346,17 +345,34 @@ a{
   }
 
   .about-content img{
-    margin: 0 20px 20px 0;
-    float: left;
-    -webkit-border-radius: 3px;
-    border-radius: 3px;
+    display: block;
+    margin: 0 auto 20px auto;
+    width: 100px;
+    -webkit-border-radius: 100px;
+    border-radius: 100px;
   }
 
   .bio-title{
     display: block;
     text-align: center;
-    font-size: 2.3rem;
+    font-size: 1.9rem;
     width: 100%;
+    margin-bottom: 4px;
+  }
+
+  .attribute{
+    margin-top: 0;
+    margin-bottom: 20px;
+    display: block;
+    text-align: center;
+    font-size: 1.2rem;
+  }
+
+  .bio{
+    font-size: 1.4rem;
+    max-width: 400px;
+    margin: 0 auto;
+    font-family: "Times New Roman";
   }
 
   .bio-link{
