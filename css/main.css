@@ -409,7 +409,7 @@ a, a:hover a.visited{
 
   .category-title{
     margin: 0;
-    padding: 100px 0;
+    padding: 20px 0;
     font-size: 5rem;
     color: #fff;
     width: 100%;
@@ -439,12 +439,9 @@ a, a:hover a.visited{
   }
 
   .motion-design .category-trigger{
-    background: url('../img/category-bgs/motion.jpg') center 35% no-repeat;
-    background-size: cover;
-  }
-
-  .motion-design a h3{
-    background: rgba(20,34,72,.4);
+    /*background: url('../img/category-bgs/motion.jpg') center 35% no-repeat;
+    background-size: cover;*/
+    background: #37516d;
   }
 
   .video-thumb{
@@ -494,8 +491,9 @@ a, a:hover a.visited{
   }
 
   .illustration .category-trigger{
-    background: url('../img/category-bgs/illustration.jpg') top center no-repeat;
-    background-size: cover;
+    /*background: url('../img/category-bgs/illustration.jpg') top center no-repeat;
+    background-size: cover;*/
+    background: #af7043;
   }
 
   .gallery .third{
@@ -525,26 +523,23 @@ a, a:hover a.visited{
   }
 
   .digital .category-trigger{
-    background: url('../img/category-bgs/digital.jpg')center center no-repeat;
-    background-size: cover;
+    /*background: url('../img/category-bgs/digital.jpg')center center no-repeat;
+    background-size: cover;*/
+    background: #bdcee9;
   }
 
-  .digital a h3{
-    background: rgba(201,145,88,.4);
-  }
-
-  .category a:hover{
+  /*.category a:hover{
     -webkit-animation: bgZoom .3s ease-in forwards;
     -moz-animation: bgZoom .3s ease-in forwards;
     -o-animation: bgZoom .3s ease-in forwards;
     animation: bgZoom .3s ease-in forwards;
-  }
+  }*/
 /*==========End Work Section Styles==========*/
 
 
 
 /*Background zoom animation keyframes*/
-  @-webkit-keyframes bgZoom{
+  /*@-webkit-keyframes bgZoom{
     from{background-size: 100%;}
     to{background-size: 105%;}
   }
@@ -559,7 +554,7 @@ a, a:hover a.visited{
   @keyframes bgZoom{
     from{background-size: 100%;}
     to{background-size: 105%;}
-  }
+  }*/
 /*End Background zoom animation keyframes*/
 
 
