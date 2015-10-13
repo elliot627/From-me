@@ -347,7 +347,7 @@ a, a:hover a.visited{
   .about-content img{
     display: block;
     margin: 0 auto 20px auto;
-    width: 100px;
+    width: 200px;
     -webkit-border-radius: 100px;
     border-radius: 100px;
   }
@@ -366,6 +366,10 @@ a, a:hover a.visited{
     display: block;
     text-align: center;
     font-size: 1.2rem;
+  }
+
+  .bio-container{
+    margin: 0;
   }
 
   .bio{
