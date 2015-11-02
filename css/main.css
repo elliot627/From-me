@@ -1,4 +1,4 @@
-/*! HTML5 Boilerplate v4.3.0 | MIT License | http://h5bp.com/ */
+
 
 /*
  * What follows is the result of much research on cross-browser styling.
@@ -492,6 +492,22 @@ a, a:hover a.visited{
 
   .design-popup img{
     width: 100%;
+  }
+
+  .strange-title{
+    color: #fff;
+    text-align: center;
+  }
+
+  .strange-desc{
+    color: #fff;
+    text-align: center;
+    max-width: 650px;
+    margin: 25px auto;
+  }
+
+  .strange-desc a{
+    color: #bdcee9 !important;
   }
 
   .illustration .category-trigger{
