@@ -194,7 +194,7 @@ a, a:hover a.visited{
 /*==========Header Styles==========*/
 .logo-social-container{
   position: absolute;
-  top: 8%;
+  top: 20%;
   left: 0;
   right: 0;
   margin: 0 auto;
@@ -208,6 +208,7 @@ a, a:hover a.visited{
 .splash{
   height: 100%;
   position: relative;
+  min-height: 600px;
 }
 
 .logobox{
@@ -747,8 +748,10 @@ a, a:hover a.visited{
    Modify as content requires.
    ========================================================================== */
 
-@media only screen and (min-width: 35em) {
-    /* Style adjustments for viewports that meet the condition */
+@media only screen and (max-width: 480px) {
+  .logo-social-container{
+    top: 8%;
+  }
 }
 
 @media print,
